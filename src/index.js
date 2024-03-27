@@ -8,16 +8,24 @@ import Hello from "./chapter03/Hello"
 import Hello2 from "./chapter03/Hello2"
 import ConfirmDialog from "./chapter04/Test1"
 import Clock from "./chapter04/Clock";
+import CommentList from './chapter05/CommentList';
+import Comment from './chapter05_ex/Comment';
+import First from './chapter05_ex2/First';
+import Second from './chapter05_ex2/Second';
+import Notification from './chapter06/NotificationList';
+import Counter from './chapter07/Counter';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Clock />
+      <Counter />
     </React.StrictMode>
   );
-},1000);
+
 
 
 // If you want to start measuring performance in your app, pass a function
