@@ -14,17 +14,21 @@ import First from './chapter05_ex2/First';
 import Second from './chapter05_ex2/Second';
 import Notification from './chapter06/NotificationList';
 import Counter from './chapter07/Counter';
+import Counter2 from './chapter07/Counter2';
+import Accommodate from './chapter07_ex/Accommodate';
+import LikeFeature from './chapter07_ex/Recommend1';
+import LikeFeature2 from './chapter07_ex/Recommend2';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-  root.render(
-    <React.StrictMode>
-      <Counter />
-    </React.StrictMode>
-  );
+root.render(
+  <React.StrictMode>
+    <LikeFeature2 />
+  </React.StrictMode>
+);
 
 
 
