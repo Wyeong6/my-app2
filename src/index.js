@@ -13,20 +13,35 @@ import Comment from './chapter05_ex/Comment';
 import First from './chapter05_ex2/First';
 import Second from './chapter05_ex2/Second';
 import Notification from './chapter06/NotificationList';
-import Counter from './chapter07/Counter';
+// import Counter from './chapter07/Counter';
 import Counter2 from './chapter07/Counter2';
 import Accommodate from './chapter07_ex/Accommodate';
 import LikeFeature from './chapter07_ex/Recommend1';
 import LikeFeature2 from './chapter07_ex/Recommend2';
-
+import Gugudan from './blog/gugudan';
+import Gugufunction from './blog/gugufunction';
+import WordRelay from './blog/wordRelay';
+import ConfirmButton from './chapter08/ConfirmButton';
+import MailBox from './chapter09/Mailbox';
+import CounterIf from './chapter09/Mailbox';
+import LoginControl from './chapter09/LoginControl';
+import MainPage from './chapter09/MainPage';
+import LandingPage from './chapter09_ex/LandingPage';
+import LoginPage from './chapter09_ex/LoginPage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+const user = {
+  id: "user",
+  pw: "1234"
+}
+
 root.render(
   <React.StrictMode>
-    <LikeFeature2 />
+    <LoginPage />
   </React.StrictMode>
 );
 
