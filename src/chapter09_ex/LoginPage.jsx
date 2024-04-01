@@ -13,7 +13,6 @@ function LoginPage(props) {
     const [PW,setPW] = useState('');
     const inputElID = useRef(null);
     const inputElPW = useRef(null);
-    const inputEl = useRef(null);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const USER_ID = "user";
     const USER_PW = "1234";
@@ -31,9 +30,9 @@ function LoginPage(props) {
     const submit = (e) => {
         e.preventDefault();
         if (ID === USER_ID && PW === USER_PW){
-            setIsLoggedIn(true)
+            onClickLogin();
         } else if (ID === USER_ID && PW !== USER_PW) {
-            alert("비밀번호를 확인해주세요")
+            alert("비밀번호를 확인해주세요");
             inputElPW.current.focus();
         } else if (ID !== USER_ID && PW === USER_PW) {
             alert("아이디를 확인해주세요")
