@@ -32,19 +32,21 @@ import NumberList from './chapter10/NumberList';
 import AttendanceBook from './chapter10_ex/AttendanceBook';
 import FruitSelect from './chapter11/FruitSelect';
 import Reservation from './chapter11/Reservation';
-import SignUp from './chapter11_ex/SignUp';
+// import SignUp from './chapter11_ex/SignUp';
 import Pet from './pet/AddPetForm';
 import AddPetForm from './pet/AddPetForm';
 import Diary from './Diary_default/Diary';
 import Calculator from './chapter12/Calculator';
 import ProfileCard from './chapter13/PrifileCard';
-
+import DarkOrLight from './chapter14/DarkOrLight';
+import SignUp from './chapter14_ex/SignUp';
+import LoginPage3 from './chapter14_ex/LoginPage3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <LoginPage3 />
   </React.StrictMode>
 );
 

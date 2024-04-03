@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { v4 as uuidv4} from "uuid";
 
 function DiaryEditor(props) {
 
@@ -28,6 +28,11 @@ function DiaryEditor(props) {
     const handleEmotionChange = (e) => {
         setEmotion(e.target.value);
     }
+
+    // uuid 사용 
+    // 1. 설치 - npm install -- save uuid
+    // 2. 선언 - import { v4 as uuidv4} from "uuid";
+    // 3. 사용 - uuidv4()
 
     const handleSubmit = (e) => {
         e.preventDefault();
