@@ -41,12 +41,16 @@ import ProfileCard from './chapter13/PrifileCard';
 import DarkOrLight from './chapter14/DarkOrLight';
 import SignUp from './chapter14_ex/SignUp';
 import LoginPage3 from './chapter14_ex/LoginPage3';
+import StyledPage from './chapter15/StyledPage';
+import Dark from './chapter15/Dark';
+import Blocks from './chapter15_ex/Blocks';
+import WeatherApp from './axios/WeatherApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <LoginPage3 />
+    <WeatherApp />
   </React.StrictMode>
 );
 
